@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+#show-content{
+    position: relative;
+    width: 1100px;
+    box-sizing: border-box;
+    margin: 0 auto 100px;
+}
+#show-content .service{
+    position: relative;
+    width: 1100px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service>p:nth-child(1){
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 35px;
+    color: #3f3a39;
+}
+.service>p:nth-child(2){
+    font-weight: lighter;
+    color: #727272;
+    font-size: 14px;
+    line-height: 28px;
+}
+.service>p:nth-child(3){
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #949191;
+}
+/* 服务类型 */
+#show-content .service-all{
+    position: relative;
+    width: 1100px;
+    height: 360px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.service-all>ul{
+    display: flex;
+    text-align: center;
+}
+.service-all>ul>li{
+    width: 220px;
+    height: 362px;
+    border: 1px solid #dfdfdf;
+    transition: all .35s ease-out;
+}
+.service-all>ul>li:hover{
+    box-shadow: 0px 10px 10px 5px #d0d0d0;
+}
+.service-all>ul>li>div:nth-child(1){
+    position: relative;
+    width: 218px;
+    height: 150px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.service-all>ul>li:nth-child(1)>div:nth-child(1){
+    background: rgb(183, 185, 64);
+}
+.service-all>ul>li:nth-child(2)>div:nth-child(1){
+    background: rgb(71, 191, 130);
+}
+.service-all>ul>li:nth-child(3)>div:nth-child(1){
+    background: rgb(110, 139, 214);
+}
+.service-all>ul>li:nth-child(4)>div:nth-child(1){
+    background: rgb(173, 83, 196);
+}
+.service-all>ul>li:nth-child(5)>div:nth-child(1){
+    background: rgb(224, 93, 109);
+}
+.service-all>ul>li>div:nth-child(1)>img{
+    width: 55px;
+}
+.service-all>ul>li>div:nth-child(1)>p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.service-all>ul>li>div:nth-child(2){
+    padding: 0 20px;
+    margin-top: 50px;
+    color: #999;
+    font-size: 14px;
+    text-align: left;
+    opacity: .75;
+}
+/* 搜索引擎 */
+.rank{
+    position: relative;
+    width: 1100px;
+    height: 437px;
+}
+.rank .rank-left{
+    margin: auto;  
+    position: absolute;  
+    top: 0; 
+    bottom: 0;
+    width: 500px;
+    height: 107px;
+    text-align: center;
+}
+.rank .rank-left>P:nth-child(1){
+    color: #3e3d3c;
+    font-size: 36px;
+}
+.rank .rank-left>P:nth-child(2){
+    color: #005faf;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 48px;
+}
+.rank .rank-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.backend-wrap{
+    position: relative;
+    width: 1100px;
+    height: 160px;
+    margin: 0 auto;
+}
+.backend-wrap ul{
+    display: flex;
+}
+.backend-wrap ul li{
+    flex: 1;
+    text-align: center;
+    transition: all .25s linear;
+}
+.backend-wrap ul li:hover{
+    box-shadow: 0px 2px 5px 2px #d0d0d0;
+}
+.backend-wrap ul li img{
+    width: 100px;
+    padding-top: 20px;
+}
+.backend-wrap ul li p{
+    color: #999;
+    font-size: 16px;
+}
+/* 更多服务 */
+.more-wrap{
+    position: relative;
+    width: 1100px;
+    height: 346px;
+}
+.more-wrap ul{
+    width: 1100px;
+    height: 346px;
+    box-sizing: border-box;
+    background: pink
+}
+.more-wrap ul li{
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 173px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-bottom: 2px solid red;
+}
+.more-wrap ul li:nth-child(1){
+    background-image: url('../images/more-service-01.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(2){
+    background-image: url('../images/more-service-02.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(3){
+    background-image: url('../images/more-service-03.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(4){
+    background-image: url('../images/more-service-04.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(5){
+    background-image: url('../images/more-service-05.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(6){
+    background-image: url('../images/more-service-06.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(7){
+    background-image: url('../images/more-service-07.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(8){
+    background-image: url('../images/more-service-08.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(9){
+    background-image: url('../images/more-service-09.jpg');
+    background-size: cover;
+}
+.more-wrap ul li:nth-child(10){
+    background-image: url('../images/more-service-10.jpg');
+    background-size: cover;
+}
+.more-wrap ul li div{
+    width: 220px;
+    height: 173px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.more-wrap ul li p{
+    position: absolute;
+    width: 220px;
+    text-align: center;
+    bottom: 30px;
+    color: rgba(255,255, 255, .75);
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: all .2s linear;
+}
+.more-wrap ul li:hover p{
+    transform: translate(0, -50px);
+}

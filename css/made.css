@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* 展示区域 */
+#our-serve{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+#our-serve .service{
+    position: relative;
+    width: 1100px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service>p:nth-child(1){
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 35px;
+    color: #3f3a39;
+}
+.service>p:nth-child(2){
+    font-weight: lighter;
+    color: #727272;
+    font-size: 14px;
+    line-height: 28px;
+}
+.service>p:nth-child(3){
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #949191;
+}
+.our-pic{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* cooperation  */
+#cooperation{
+    position: relative;
+    width: 1100px;
+    margin-top: 80px !important;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #d0d0d0;
+}
+#cooperation>img:nth-child(1){
+    position: relative;
+    top: -20px;
+    background: #fff;
+    padding: 0 50px;
+}
+#cooperation>p:nth-child(2){
+    color: #3f3a39;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#cooperation>p:nth-child(3){
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #d0d0d0;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #777;
+}
+.cooperation-pic{
+    position: relative;
+    width: 650px;
+    height: 107px;
+    margin-top: 60px !important;
+    margin: 0 auto;
+}
+.cooperation-pic ul{
+    display: flex;
+}
+.cooperation-pic ul li{
+    float: 1;
+}
+.cooperation-pic ul li img{
+    width: 80px;
+    padding: 0 45px;
+}
+.cooperation-pic ul li p{
+    color: #7c7c7c;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 7px;
+}
+.four{
+    position: relative;
+    width: 880px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.four ul{
+    width: 880px;
+    height: 400px;
+}
+.four ul li{
+    width: 440px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+}
+.four ul li p{
+    color: black;
+    padding: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 2rem;
+    font-size: 15px;
+}
+.four ul li img{
+    width: 100%;
+    height: 100%;
+}
